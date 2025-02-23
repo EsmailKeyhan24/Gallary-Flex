@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+        main{
+            width: 100%;
+            /* height: 100vh; */
+            background-color:#F2F2F2;
+            display: flex;
+            justify-content: center;
+            >.gallary{
+                width: 90%;
+                min-height:100vh;
+                /* border:2px solid black; */
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                >figure{
+                    width: 350px;
+                    height: 248px;
+                    background-color:white;
+                    border-radius:5px;
+                    margin-top:40px;
+                    box-shadow:2px 2px 3px 1px rgba(0,0,0,0.1);
+                    padding:10px;
+                    >img{
+                        width: 100%;
+                        height: 80%;
+                        object-fit:cover;
+                    }
+                    >.gallary_footer{
+                        width: 100%;
+                        height: 20%;
+                        /* background-color:red; */
+                        display: flex;
+                        align-items: center;
+                        >img{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            object-fit: cover;
+                        }
+                        >strong{
+                            margin-left:10px;
+                            font-family: cursive;
+                        }
+                    }
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="gallary">
+            <figure>
+                <img src="img/leejungho-2.jpg.crdownload" alt="">
+                <div class="gallary_footer">
+                    <img src="img/ismailk1.png" alt="">
+                    <strong>Esmail keyhan</strong>
+                </div>
+            </figure>
+            <figure>
+                <img src="img/fa72bd63dca8729e1e1abcb0e729b4e8.jpg" alt="">
+                <div class="gallary_footer">
+                    <img src="img/ismailk1.png" alt="">
+                    <strong>Esmail keyhan</strong>
+                </div>
+            </figure>
+            <figure>
+                <img src="img/11.jpeg" alt="">
+                <div class="gallary_footer">
+                    <img src="img/ismailk1.png" alt="">
+                    <strong>Esmail keyhan</strong>
+                </div>
+            </figure>
+            <figure>
+                <img src="img/14.jpeg" alt="">
+                <div class="gallary_footer">
+                    <img src="img/ismailk1.png" alt="">
+                    <strong>Esmail keyhan</strong>
+                </div>
+            </figure>
+            <figure>
+                <img src="img/16.jpeg" alt="">
+                 <div class="gallary_footer">
+                    <img src="img/ismailk1.png" alt="">
+                    <strong>Esmail keyhan</strong>
+                </div>
+            </figure>
+            <figure>
+                <img src="img/2.jpeg" alt="">
+                 <div class="gallary_footer">
+                    <img src="img/ismailk1.png" alt="">
+                    <strong>Esmail keyhan</strong>
+                </div>
+            </figure>
+            <figure>
+                <img src="img/8.jpeg" alt="">
+                 <div class="gallary_footer">
+                    <img src="img/ismailk1.png" alt="">
+                    <strong>Esmail keyhan</strong>
+                </div>
+            </figure>
+        </div>
+    </main>
+</body>
+</html>
